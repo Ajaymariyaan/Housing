@@ -6,7 +6,6 @@ function Parent({ children }) {
     <>
       <Grid container spacing={2} sx={
         {
-          // overflow:"hidden",
           display:"flex",
 
 

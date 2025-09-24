@@ -1,5 +1,9 @@
-import "@/styles/globals.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+import Parent from "@/Component/Parent";
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <Parent>
+      <Component {...pageProps} />
+    </Parent>
+  )
 }

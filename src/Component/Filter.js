@@ -96,8 +96,12 @@ function FilterComp({ onFilterChange,isOpen, onClose}) {
   const handleApply = () => {
     if (onFilterChange) {
       onFilterChange(checkedItems);
+      
+      
     }
-    setOpen(false);
+    // setOpen(false);
+    onClose();
+    
   };
 
   return (
